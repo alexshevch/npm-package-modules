@@ -1,0 +1,29 @@
+{
+  "name": "package-modules",
+  "version": "0.1.0",
+  "description": "Generate list of dependencies for package.json from node_modules folder",
+  "bin": {
+    "package-modules": "./bin/package-modules.js"
+  },
+  "main": "./lib/package-modules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shevaroller/npm-package-modules.git"
+  },
+  "keywords": [
+    "node_modules",
+    "dependencies",
+    "package.json",
+    "modules",
+    "package"
+  ],
+  "author": "Oleksii Shevchenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shevaroller/npm-package-modules/issues"
+  },
+  "homepage": "https://github.com/shevaroller/npm-package-modules#readme"
+}
